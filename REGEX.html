@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20 Events Playground</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="REGEX.css">
+</head>
+<body id="body">
+
+    <h1>Event Playground</h1>
+    <p>Interact with the elements below to trigger 20 different JavaScript events.</p>
+
+    <!-- 1. Click Event -->
+    <button id="clickBtn">Click Me</button>
+
+    <!-- 2. Double Click Event -->
+    <button id="dblClickBtn">Double Click Me</button>
+
+    <!-- 3. Mouse Enter Event -->
+    <!-- 4. Mouse Leave Event -->
+    <div id="hoverBox">Hover over me!</div>
+
+    <!-- 5. Keydown Event -->
+    <!-- 6. Keyup Event -->
+    <!-- 7. Keypress Event -->
+    <input type="text" id="textInput" placeholder="Type here...">
+
+    <!-- 8. Focus Event -->
+    <!-- 9. Blur Event -->
+    <input type="text" id="focusInput" placeholder="Focus and blur me...">
+
+    <!-- 10. Change Event -->
+    <select id="selectBox">
+        <option value="1">Option 1</option>
+        <option value="2">Option 2</option>
+        <option value="3">Option 3</option>
+    </select>
+
+    <!-- 11. Submit Event -->
+    <!-- 12. Reset Event -->
+    <form id="myForm">
+        <input type="text" placeholder="Form input">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+
+    <!-- 13. Context Menu (Right Click) Event -->
+    <div id="rightClickBox">Right click me!</div>
+
+    <!-- 14. Wheel Event -->
+    <div id="scrollBox">Scroll over me! (Use mouse wheel)</div>
+
+    <!-- 15. Drag Start Event -->
+    <!-- 16. Drag End Event -->
+    <div id="draggableBox" draggable="true">Drag me!</div>
+
+    <!-- 17. Copy Event -->
+    <p id="copyText">Try copying this text.</p>
+
+    <!-- 18. Paste Event -->
+    <input type="text" id="pasteInput" placeholder="Paste something here...">
+
+    <!-- 19. Resize Event (Triggered on window, displayed here) -->
+    <p id="resizeText">Resize the window.</p>
+
+    <!-- 20. Load Event (Triggered on window/document, displayed here) -->
+    <p id="loadText">Waiting for page to load...</p>
+
+    <!-- Display area for event logs -->
+    <div id="eventLog">
+        <h3>Event Log:</h3>
+        <ul id="logList"></ul>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="REGEX.js"></script>
+</body>
+</html>

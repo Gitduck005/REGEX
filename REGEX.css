@@ -1,0 +1,79 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+input, select {
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Styling for interactive boxes */
+#hoverBox, #rightClickBox, #scrollBox, #draggableBox {
+    width: 200px;
+    height: 100px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ecf0f1;
+    border: 2px dashed #bdc3c7;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Specific styling for the draggable box */
+#draggableBox {
+    cursor: grab;
+    background-color: #f1c40f;
+}
+#draggableBox:active {
+    cursor: grabbing;
+}
+
+/* Styling for the event log area */
+#eventLog {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+#logList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#logList li {
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+    font-family: monospace;
+    color: #e74c3c;
+}
